@@ -17,8 +17,8 @@ let currentScale = 1;
 var count = 0;
 const clickCountSpan = document.getElementById('clickCount');
 function check(yes_btn, no_btn){
-    if(count < text.length-1){
-        count++;
+    count++;
+    if(count < text.length){
         no_btn.innerText = text[count];
         nobtnSize(no_btn,count)
     }

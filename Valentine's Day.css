@@ -1,0 +1,135 @@
+/*국민연금체*/
+@font-face {
+    font-family: 'NPSfontBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/NPSfontBold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*오뮤 다예쁨체*/
+@font-face {
+    font-family: 'omyu_pretty';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*KCC차쌤체*/
+@font-face {
+    font-family: 'KCCChassam';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCCChassam.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.button:visited {
+    text-decoration: none;
+    color: #00AE68;
+}   
+
+h1{
+    font-family : 'NPSfontBold';
+    position:relative; 
+    left:0px;
+    top:410px; 
+    display: block;
+    text-align: center;
+}
+.correct{
+    position:absolute; 
+    left:870px;
+    top:400px;
+    text-align: center;
+}
+.click{
+    font-family : 'omyu_pretty';
+    position:relative; 
+    left:-10px;
+    top:460px;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+}
+
+/*사제 버튼*/
+.button1{
+    font-family : 'NPSfontBold';
+    clear:both;
+    display: block;
+    position: relative;
+    float: left;
+    width: 120px;
+    padding: 0 0;
+    margin: 10px 20px 10px 0;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    color: #FFF;
+    border-radius: 5px;
+    border:none;
+    transition: all 0.2s ;
+    transform-origin: center;
+}
+
+.button2{
+    font-family : 'NPSfontBold';
+    clear:both;
+    display: block;
+    position: relative;
+    float: left;
+    width: 120px;
+    padding: 0;
+    margin: 10px 20px 10px 0;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    color: #FFF;
+    border-radius: 5px;
+    border:none;
+    transition: all 0.2s ;
+    transform-origin: center;
+    
+}
+    
+.clear {
+    clear: both;
+}
+
+.container {
+    padding-top: 1em;
+    margin-top: 1em;
+    border-top: 
+    solid
+    1px
+    #CCC;
+}
+
+.btnBlueGreen {
+    background: #00AE68;
+    left : 760px;
+    top : 420px;
+    z-index: 2;
+}
+.btnFade.btnBlueGreen:hover {
+    background: #21825B;
+}  
+
+.btnRed {
+    background: #ff4c4c;
+    left : 1020px;
+    top : 350px;
+    z-index: 2;
+}
+.btnFade.btnRed:hover {
+    background: #d34040;
+}
+
+img{
+    position: absolute;
+    width : 200px;
+    left : 845px;
+    top : 185px;
+    z-index: 1;
+}

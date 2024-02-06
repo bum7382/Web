@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>   
+    <head>
+        <meta charset="utf-8">
+        <title>발렌타인데이</title>
+        <link rel="stylesheet" href="./Valentine's Day.css"/>
+        <script src="Valentine's Day.js"></script>
+    </head>
+    
+    <body>
+        <h1>내게 초콜릿을 줄래?</h1>
+
+        <button 
+        class = "button1 btnFade btnBlueGreen"
+        title="Button fade blue/green"
+        type = "button"
+        id = "yes"
+        onclick="move()">
+        응!
+        </button>
+        <div class="clear"></div>
+        
+        <button
+        class="button2 btnFade btnRed"
+        title="Button fade red" 
+        type = "button"
+        id = "no"
+        onclick="check(document.getElementById('yes'),document.getElementById('no'))">
+        아니
+        </button>
+        <div class="clear"></div>
+        <img src="images/곰돌이.gif">
+        
+    </body>
+
+</html>
